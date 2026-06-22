@@ -27,7 +27,6 @@
 
         body {
             background-color: var(--dark-black);
-            /* Retro Y2K Vector Flourish / Grid Inspired Background Pattern */
             background-image: 
                 linear-gradient(90deg, rgba(255, 0, 127, 0.05) 1px, transparent 1px),
                 linear-gradient(rgba(255, 0, 127, 0.05) 1px, transparent 1px),
@@ -44,7 +43,6 @@
         .studded-box {
             background: var(--goth-black);
             border: 4px solid var(--hot-pink);
-            /* Dotted outline mimicking a row of silver studs/rhinestones */
             outline: 3px dotted var(--silver-stud);
             outline-offset: 2px;
             box-shadow: 0px 0px 15px var(--hot-pink);
@@ -53,7 +51,6 @@
             position: relative;
         }
 
-        /* Decorative Vector Flourish Corners (CSS Simulated) */
         .studded-box::before, .studded-box::after {
             content: "❦";
             position: absolute;
@@ -159,6 +156,21 @@
         .news-post p {
             line-height: 1.6;
             font-size: 0.95rem;
+            margin-bottom: 15px;
+        }
+
+        /* --- Y2K IMAGE STYLE --- */
+        .post-image-container {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .post-image {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid var(--hot-pink);
+            outline: 2px solid var(--silver-stud);
+            box-shadow: 0px 0px 10px rgba(255, 0, 127, 0.5);
         }
 
         /* --- SIDEBAR / SMALLER SECTIONS --- */
@@ -171,7 +183,6 @@
             margin-bottom: 15px;
         }
 
-        /* Playlist / Top 8 style layout */
         .music-player {
             background: #000;
             border: 1px dashed var(--hot-pink);
@@ -243,6 +254,11 @@
             <div class="news-post">
                 <h3>HARRY STYLES: Live In London (04.07.2026)!!</h3>
                 <span class="date">POSTED: June 22, 2026 // 17:05 PM</span>
+                
+                <div class="post-image-container">
+                    <img class="post-image" src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=600&auto=format&fit=crop" alt="Live Concert Vibe">
+                </div>
+
                 <p>
                     Oh my god, rumors confirmed! Harry is officially taking over London for a massive, spectacular show on July 4th! Word on the street is the production is completely next level—think full retro glamor, massive digital glitter cascades, and a setlist packed with absolute surprises. Fans are already mapping out feather boa color themes. Get your platform boots ready, because this is going to be jaw-dropping!
                 </p>
