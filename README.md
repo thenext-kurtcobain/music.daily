@@ -256,7 +256,7 @@
                 <span class="date">POSTED: June 22, 2026 // 17:05 PM</span>
                 
                 <div class="post-image-container">
-                    <img class="post-image" src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=600&auto=format&fit=crop" alt="Live Concert Vibe">
+                    <img class="post-image" src="https://i.pinimg.com/736x/18/b0/0a/18b00a34a1381eae731a3a57c0f09d87.jpg" alt="Live Concert Vibe">
                 </div>
 
                 <p>
